@@ -1,0 +1,106 @@
+body {
+  font-family: 'alfa slab one',cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Mengisi seluruh tinggi layar */
+  background-color: #333;
+}
+header {
+    background-color:#696969;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+  
+.logo {
+    font-size: 1.5rem;
+}
+  
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+.menu li {
+    margin-right: 20px;
+}
+  
+.menu li:last-child {
+    margin-right: 0;
+}
+  
+.menu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+  
+.menu li a:hover {
+    background-color: #0e0e0e;
+}
+.full-width {
+    width: 100%;
+    height: auto;
+}
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+}
+.container .card{
+    width: 308px;
+    position: relative;
+    height: 400px;
+    background:#f0f0f0 ;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+}
+.container .card .imgbx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rbga(0,0,0,1.2);
+}
+.container .card .imgbx img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.imgbx:hover img{
+    transform: scale(1.1);
+}
+footer {
+    background-color: #655b5b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both; /* agar footer tidak melewati sidekiri dan sidekanan */
+    bottom: 0; /* menjaga footer di bagian bawah */
+}
