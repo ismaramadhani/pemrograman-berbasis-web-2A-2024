@@ -1,0 +1,17 @@
+body{
+    background-color: #63b9e8;
+}
+.collapse .nav-item:hover {
+    background-color: rgb(243, 243, 246); /* Warna latar belakang saat dihover */
+}
+.dropdown:hover {
+    background-color: rgb(243, 243, 246);
+}
+footer {
+    background-color: #63b9e8;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both; /* agar footer tidak melewati sidekiri dan sidekanan */
+    bottom: 0; /* menjaga footer di bagian bawah */
+}
