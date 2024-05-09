@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m4.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src=>Pemrograman Berbasis Web</div>
+        <div class="dropdown">
+            <button onclick="toggleDropdown()" class="dropbtn">Select Topic</button>
+            <div id="dropdownContent" class="dropdown-content">
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <form id="todo">
+            <fieldset>
+              <legend>ToDo-List</legend>
+              <input id="task" type="text" placeholder="Write a task..." required />
+              <button>Add</button>
+              <ol></ol>
+            </fieldset>
+          </form>
+    </div>
+<script src="m4.js"></script>
+</body>
+</html>
